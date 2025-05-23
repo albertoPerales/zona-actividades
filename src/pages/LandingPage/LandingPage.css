@@ -1,0 +1,60 @@
+.landing {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.layout-main {
+    padding-top: 0;
+
+}
+
+.carousel {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    background:
+        linear-gradient(135deg, rgba(92, 0, 181, 0.9)),
+        url("https://images.pexels.com/photos/136412/pexels-photo-136412.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center/cover no-repeat;
+
+
+    color: white;
+    padding: 4rem 2rem;
+    text-align: left;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.carousel-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.carousel-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.carousel-content p {
+    font-size: 1.1rem;
+    max-width: 600px;
+}
+
+.store-section h3 {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #5c00b5fa;
+}
+
+.store-section p,
+.store-section ul {
+    margin-bottom: 1rem;
+}
+
+.store-section ul {
+    padding-left: 1.2rem;
+    list-style-type: disc;
+}
+
+.store-hours li {
+    margin-bottom: 0.25rem;
+}

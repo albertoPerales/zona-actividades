@@ -1,0 +1,84 @@
+.activity-detail {
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.activity-detail h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.price {
+  font-size: 1.5rem;
+  color: #5c00b5fa;
+  margin-bottom: 1rem;
+}
+
+.long-description {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.detail-info p {
+  margin: 0.25rem 0;
+}
+
+.images {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+
+.images img {
+  width: 250px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.dates {
+  margin-top: 1.5rem;
+}
+
+.dates h4 {
+  margin-bottom: 0.5rem;
+}
+
+.date-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.badge {
+  background-color: #5c00b5fa;
+  color: white;
+  padding: 0.4rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+.badge:hover {
+  background-color: #5c00b5fa;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.25rem;
+}
+
+.error {
+  text-align: center;
+  color: #c00;
+  padding: 2rem;
+}
